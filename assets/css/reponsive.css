@@ -1,0 +1,87 @@
+/* table and mobie */
+@media (max-width: 1023px) {
+    .text__title{
+       font-size: 1.6em;
+    }
+    .text__slogun{
+        font-size: 0.6em;
+    }
+    .events{
+        margin-top: 1.2em;
+    }
+    .title-h3 br{
+        display: none;   
+    }
+    .body-content{
+        margin-top: 1.5em;
+        display: block;
+    }
+   .partner{
+       padding: 50px;
+   }
+   
+   .sub__title{
+       font-size: 1em;
+   }
+   .sub__icons{
+       margin-right: 0;
+   }
+ }
+ /* table*/
+ @media (min-width: 740px) and (max-width: 1024px) {
+   .partner__img{
+       margin: 0 25px;
+   }
+   .footer__link{
+       font-size: 0.8em;
+   }
+   
+ }
+ /*mobile */
+ @media (max-width: 739px) {
+    html{
+        margin: 0 20px;
+       
+    }
+
+    .title-h3 br{
+        display: none;
+    }
+    .outdoor, .Aquapank, .thebest{
+        flex-direction: column-reverse;
+    }
+    .Aquapank{
+        flex-direction: column;
+    }
+    .Aquapank__content{
+        margin-bottom: 1.2em;
+    }
+    .body-img{
+        width: 100%;
+        margin: 0;
+    }
+   
+    .title-h3{
+        font-size: 1.7em;
+    }
+    .sub__title br{
+        display: none;
+    }
+
+    .sub__input{
+        width: 100%;
+        float: left;
+        margin: 1.5em 0;
+    }
+    .sub__icons{
+        text-align: left;
+    }
+    .footer__hr{
+        margin-bottom: 1em;
+        margin-top: 6em;
+    }
+    .footer__link{
+        font-size: 0.5em;
+    }
+ }
+ 
